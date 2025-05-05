@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/addUser.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/addUser",
+      "methods": ["POST"],
+      "dest": "/api/addUser.js"
+    }
+  ]
+}
