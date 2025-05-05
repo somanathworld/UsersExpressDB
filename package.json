@@ -1,19 +1,10 @@
 {
-  "name": "node-js",
+  "name": "express-mongodb-vercel",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "build" : "npm run build",
-    "start" : "npm start"
-  },
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
-    "cors": "2.8.5",
-    "express": "4.16.4",
-    "mongoose": "8.14.1"
-  },
-  "devDependencies": {
-    "nodemon": "1.18.4"
-  },
-  "keywords": []
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4"
+  }
 }
