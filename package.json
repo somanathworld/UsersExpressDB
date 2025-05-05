@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "build" : "npm build",
     "start" : "npm start"
   },
   "dependencies": {
