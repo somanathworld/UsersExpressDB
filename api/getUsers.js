@@ -1,9 +1,11 @@
 import express from "express";
+import cors from "cors"; // ← import cors
 import { connectDB } from "../config/db.js";
 import User from "../models/User.js";
 import { successResponse, errorResponse } from "../utils/response.js";
 
 const app = express();
+app.use(cors())
 
 app.get("/api/getUsers", async (req, res) => {
   try {
