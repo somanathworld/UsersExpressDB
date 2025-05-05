@@ -7,7 +7,7 @@
   "routes": [
     {
       "src": "/api/addUser",
-      "methods": ["POST"],
+      "methods": ["POST", "OPTIONS"],
       "dest": "/api/addUser.js"
     },
     {
