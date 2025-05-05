@@ -18,17 +18,14 @@
   "redirects": [
     {
       "src": "/api/addUser",
-      "methods": ["POST"],
       "dest": "/api/addUser.js"
     },
     {
       "src": "/api/getUsers",
-      "methods": ["GET"],
       "dest": "/api/getUsers.js"
     },
     {
       "src": "/",
-      "methods": ["GET"],
       "dest": "/intro.html"
     }
   ]
