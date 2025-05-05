@@ -1,8 +1,8 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/addUser.js", "use": "@vercel/node" },
-    { "src": "api/getUsers.js", "use": "@vercel/node" }
+    { "src": "api/*.js", "use": "@vercel/node" },
+    { "src": "api/*.js", "use": "@vercel/node" }
   ],
   "headers": [
     {
