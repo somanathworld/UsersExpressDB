@@ -7,6 +7,7 @@ import { successResponse, errorResponse } from "../utils/response.js";
 const app = express();
 
 app.use(cors());
+app.options("/api/addUser", cors()); // allow OPTIONS preflight
 app.use(express.json());
 
 app.post("/api/addUser", async (req, res) => {
